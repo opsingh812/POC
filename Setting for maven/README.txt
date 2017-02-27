@@ -1,0 +1,5 @@
+-Create a folder name "Local Repository" inside your maven directory.
+-Now place the directory path inside "setting.xml" under <local repository> tag.
+-Now copy and replace this setting.xml, in config directory of maven folder.
+-And then in eclipse under maven user setting, give the path of this updated setting.xml file.
+-Enjoy! :)
