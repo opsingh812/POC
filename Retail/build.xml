@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="Retail">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../InstalledSoftware/eclipse/"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+    <path id="Apache Tomcat v7.0 [Apache Tomcat v7.0].libraryclasspath">
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/annotations-api.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/catalina-ant.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/catalina-ha.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/catalina-tribes.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/catalina.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/ecj-4.4.2.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/el-api.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/jasper-el.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/jasper.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/jsp-api.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/servlet-api.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/tomcat-api.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/tomcat-coyote.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/tomcat-dbcp.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/tomcat-i18n-es.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/tomcat-i18n-fr.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/tomcat-i18n-ja.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/tomcat-jdbc.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/tomcat-util.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/tomcat7-websocket.jar"/>
+        <pathelement location="../../apache-tomcat-7.0.68/apache-tomcat-7.0.68/lib/websocket-api.jar"/>
+    </path>
+    <path id="Web App Libraries.libraryclasspath">
+        <pathelement location="WebContent/WEB-INF/lib/antlr-2.7.6.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/aopalliance-1.0-sources.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/aopalliance-1.0.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/com.mysql.jdbc_5.1.5.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/dom4j-1.6.1.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/hibernate-commons-annotations-4.0.4.Final.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/hibernate-core-4.3.5.Final.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/jackson-annotations-2.5.4.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/jackson-core-2.5.0.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/jackson-databind-2.5.0.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/jackson-jaxrs-base-2.4.3.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/javassist-3.18.1-GA.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/jboss-logging-3.3.0.Final.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/json-20141113.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/jstl-1.2.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/jta-1.1.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/ojdbc6.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/spring-aop-4.1.4.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/spring-aspects-4.1.6.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/spring-beans-4.1.4.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/spring-context-4.1.4.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/spring-core-4.1.4.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/spring-expression-4.1.4.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/spring-jdbc-4.1.4.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/spring-orm-4.1.4.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/spring-oxm-4.1.4.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/spring-security-web-3.1.0.RELEASE-sources.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/spring-test-4.1.4.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/spring-tx-4.1.4.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/spring-web-4.1.4.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar"/>
+    </path>
+    <path id="EAR Libraries.libraryclasspath"/>
+    <path id="Retail.classpath">
+        <pathelement location="build/classes"/>
+        <path refid="Apache Tomcat v7.0 [Apache Tomcat v7.0].libraryclasspath"/>
+        <path refid="Web App Libraries.libraryclasspath"/>
+        <path refid="EAR Libraries.libraryclasspath"/>
+        <pathelement location="WebContent/WEB-INF/lib/spring-web-4.1.4.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/spring-core-4.1.4.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/ojdbc6.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/spring-beans-4.1.4.RELEASE.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="build/classes"/>
+        <copy includeemptydirs="false" todir="build/classes">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="build/classes"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="build/classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="Retail.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+</project>
